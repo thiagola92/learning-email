@@ -1,0 +1,17 @@
+[project]
+name = "email"
+version = "0.1.0"
+description = "Default template for PDM package"
+authors = [
+    {name = "thiagola92", email = "thiagola92@gmail.com"},
+]
+dependencies = [
+    "aiosmtpd>=1.4.6",
+]
+requires-python = "==3.11.*"
+readme = "README.md"
+license = {text = "MIT"}
+
+
+[tool.pdm]
+distribution = false
